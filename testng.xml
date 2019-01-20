@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Growl Notification Demo" verbose="10" parallel="false" thread-count="1">
+
+    <test name="Upload File by Selenium">
+        <classes>
+            <class name="com.step2qa.FileUploadDemo">
+                <methods>
+                    <include name="file_upload"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Download File by Selenium by WGet">
+        <classes>
+            <class name="com.step2qa.FileDownloadDemo">
+                <methods>
+                    <include name="file_download"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
